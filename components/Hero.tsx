@@ -30,12 +30,12 @@ const Hero = () => {
 
       <div className="flex flex-col md:flex-row">
         <div className="relative mb-10  flex flex-1 items-start md:mr-5">
-          <div className="relative z-20 flex  flex-col gap-8 rounded-3xl  border-b-4 border-s-4 px-7 py-8 h-full">
+          <div className="relative z-20 flex  flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 h-full">
             <div className="flex flex-col">
               <div className="flexBetween">
                 <h2 className="bold-20">MINING METHODS</h2>
               </div>
-              <p className="regular-16 ">
+              <p className="regular-16 text-gray-20">
                 Our mining operations utilize open-pit mining, a method known
                 for its high safety standards and efficiency. Open-pit mining
                 also facilitates large-scale mechanized operations, making it an
@@ -47,12 +47,12 @@ const Hero = () => {
           </div>
         </div>
         <div className="relative flex flex-1 items-start">
-          <div className="relative z-20 flex  flex-col gap-8 rounded-3xl border-b-4 border-s-4 px-7 py-8 h-full">
+          <div className="relative z-20 flex  flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8 h-full">
             <div className="flex flex-col">
               <div className="flexBetween">
                 <h2 className="bold-20 ">MINING SCALE</h2>
               </div>
-              <p className="regular-16 ">
+              <p className="regular-16 text-gray-20">
                 According to the current development plan for the mining area,
                 the production scale is as follows: an annual extraction of
                 50,000 tons of dolomite and over 1 million tons of magnesite.
