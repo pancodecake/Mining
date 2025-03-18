@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="flexCenter mb-24">
       <div className="padding-container max-container flex w-full flex-col gap-14">
-        <div className="flex  items-center justify-center  flex-row">
+        <div className="flex  items-center justify-center flex-col  md:flex-row">
           <Link href="/" className="mb-10">
             <Image src="/logo.svg" alt="logo" width={304} height={300}/>
           </Link>
